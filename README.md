@@ -1,14 +1,12 @@
 Xamarin.Android.PdfBox
 ======================
-Xamarin bindings library for the PdfBox-Android library from Tom Roush.
+
+[![NuGet](https://img.shields.io/nuget/v/Xamarin.Android.PdfBox.svg?label=NuGet)](https://www.nuget.org/packages/Xamarin.Android.PdfBox)
+
+Xamarin bindings library for [PdfBox-Android] from Tom Roush.
 
 Allows creation of new PDF documents, manipulation of existing<br/>
 documents and the ability to extract content from documents.
-
-Installation
-============
-
-[![NuGet](https://img.shields.io/nuget/v/Xamarin.Android.PdfBox.svg?label=NuGet)](https://www.nuget.org/packages/Xamarin.Android.PdfBox)
 
 Usage
 =====
