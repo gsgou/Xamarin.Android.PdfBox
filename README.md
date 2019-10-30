@@ -1,0 +1,42 @@
+Xamarin.Android.PdfBox
+======================
+Xamarin bindings library for the PdfBox-Android library from Tom Roush.
+
+Allows creation of new PDF documents, manipulation of existing<br/>
+documents and the ability to extract content from documents.
+
+Installation
+============
+
+[![NuGet](https://img.shields.io/nuget/v/Xamarin.Android.PdfBox.svg?label=NuGet)](https://www.nuget.org/packages/Xamarin.Android.PdfBox)
+
+Usage
+=====
+
+Before calls to PDFBox are made it is **highly** recommended to initialize the library's resource loader.<br/>
+Add the following line before calling PDFBox methods:
+
+```csharp
+PDFBoxResourceLoader.Init(Application.Context);
+```
+
+An example app is located in the `Sample` directory and includes examples of common tasks.
+
+Important notes
+===============
+
+-Currently based on PdfBox-Android v1.8.10.1<br/>
+-Requires API 19 or greater for full functionality
+
+License
+=======
+
+I am not associated with either [PdfBox-Android] or [PdfBox].<br/>
+All rights belong to their respective owners.
+
+**Xamarin.Android.PdfBox** is licensed under [Apache-2.0][Apache-2.0]
+
+[Apache-2.0]: http://www.apache.org/licenses/LICENSE-2.0.html
+[Nuget]: https://www.nuget.org/packages/Xamarin.Android.PdfBox
+[PdfBox]: http://pdfbox.apache.org
+[PdfBox-Android]: https://github.com/TomRoush/PdfBox-Android

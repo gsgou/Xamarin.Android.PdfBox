@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Android.PdfBox", "Xamarin.Android.PdfBox\Xamarin.Android.PdfBox.csproj", "{355B38F8-86BB-49C6-BDC1-CCE7976E7374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{F562C653-067D-46CB-ABFF-45CD55DADCF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{355B38F8-86BB-49C6-BDC1-CCE7976E7374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{355B38F8-86BB-49C6-BDC1-CCE7976E7374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{355B38F8-86BB-49C6-BDC1-CCE7976E7374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{355B38F8-86BB-49C6-BDC1-CCE7976E7374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F562C653-067D-46CB-ABFF-45CD55DADCF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F562C653-067D-46CB-ABFF-45CD55DADCF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F562C653-067D-46CB-ABFF-45CD55DADCF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F562C653-067D-46CB-ABFF-45CD55DADCF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
