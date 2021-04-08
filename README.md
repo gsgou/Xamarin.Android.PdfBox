@@ -23,7 +23,7 @@ An example app is located in the `Sample` directory and includes examples of com
 Important notes
 ===============
 
--Currently based on PdfBox-Android v1.8.10.1<br/>
+-Currently based on PdfBox-Android v1.8.10.3<br/>
 -Requires API 19 or greater for full functionality
 
 License
