@@ -69,7 +69,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\pdfbox-android-1.8.10.1.aar" />
+    <LibraryProjectZip Include="Jars\pdfbox-android-1.8.10.3.aar" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="NuGet.Build.Packaging">
