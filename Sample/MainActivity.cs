@@ -94,16 +94,10 @@ namespace PdfBoxAndroidSample
 		{
 			// Enable Android-style asset loading (highly recommended)
 			PDFBoxResourceLoader.Init(Application.Context);
-			// Find the root of the external storage.
-			root = Environment.GetExternalStoragePublicDirectory(Environment.DirectoryDownloads);
+			// Find the root of the internal storage.
+			root = Application.Context.CacheDir;
 			assetManager = this.Assets;
 			tv = (TextView)FindViewById(Resource.Id.statusTextView);
-
-			// Need to ask for write permissions on SDK 23 and up, this is ignored on older versions
-			if (ContextCompat.CheckSelfPermission(this, Manifest.Permission.WriteExternalStorage) != Android.Content.PM.Permission.Granted)
-			{
-				ActivityCompat.RequestPermissions(this, new string[] { Manifest.Permission.WriteExternalStorage }, 1);
-			}
 		}
 
         // Creates a new PDF from scratch and saves it to a file
