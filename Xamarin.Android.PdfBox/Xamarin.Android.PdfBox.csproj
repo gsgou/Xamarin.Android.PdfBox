@@ -78,6 +78,10 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedReferenceJar Include="Jars\bcpkix-jdk15to18-1.68.jar" />
+    <EmbeddedReferenceJar Include="Jars\bcprov-jdk15to18-1.68.jar" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
