@@ -74,4 +74,7 @@
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.common.filespecification']/class[@name='PDComplexFileSpecification']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.common']/class[@name='PDIntegerNameTreeNode']/method[@name='createChildNode']" name="managedReturn">Com.Tom_roush.Pdfbox.Pdmodel.Common.PDNameTreeNode</attr>	
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.common']/class[@name='COSDictionaryMap']/method[@name='entrySet']" name="return">java.util.Set</attr>
+  <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.graphics.form']/class[@name='PDTransparencyGroupAttributes']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
+  <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.interactive.viewerpreferences']/class[@name='PDViewerPreferences']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
+  <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.graphics']/class[@name='PDXObject']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>
 </metadata>

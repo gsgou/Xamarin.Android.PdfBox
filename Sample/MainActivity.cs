@@ -28,7 +28,7 @@ using PDType1Font = Com.Tom_roush.Pdfbox.Pdmodel.Font.PDType1Font;
 using PDType0Font = Com.Tom_roush.Pdfbox.Pdmodel.Font.PDType0Font;
 using JPEGFactory = Com.Tom_roush.Pdfbox.Pdmodel.Graphics.Image.JPEGFactory;
 using LosslessFactory = Com.Tom_roush.Pdfbox.Pdmodel.Graphics.Image.LosslessFactory;
-using PDCheckbox = Com.Tom_roush.Pdfbox.Pdmodel.Interactive.Form.PDCheckbox;
+using PDCheckBox = Com.Tom_roush.Pdfbox.Pdmodel.Interactive.Form.PDCheckBox;
 using PDComboBox = Com.Tom_roush.Pdfbox.Pdmodel.Interactive.Form.PDComboBox;
 using PDListBox = Com.Tom_roush.Pdfbox.Pdmodel.Interactive.Form.PDListBox;
 using PDRadioButton = Com.Tom_roush.Pdfbox.Pdmodel.Interactive.Form.PDRadioButton;
@@ -36,6 +36,7 @@ using PDTextField = Com.Tom_roush.Pdfbox.Pdmodel.Interactive.Form.PDTextField;
 using PDFRenderer = Com.Tom_roush.Pdfbox.Rendering.PDFRenderer;
 using PDFTextStripper = Com.Tom_roush.Pdfbox.Text.PDFTextStripper;
 using PDFBoxResourceLoader = Com.Tom_roush.Pdfbox.Util.PDFBoxResourceLoader;
+using ImageType = Com.Tom_roush.Pdfbox.Rendering.ImageType;
 
 namespace PdfBoxAndroidSample
 {
@@ -188,7 +189,7 @@ namespace PdfBoxAndroidSample
 				using (var renderer = new PDFRenderer(document))
 				{
 					// Render the image to an RGB Bitmap
-					pageImage = renderer.RenderImage(0, 1, Bitmap.Config.Rgb565);
+					pageImage = renderer.RenderImage(0, 1, ImageType.Rgb);
 
 					// Save the render result to an image
 					string filePath = root.AbsolutePath + "/render.jpg";
@@ -221,19 +222,19 @@ namespace PdfBoxAndroidSample
 					// Fill the text field
 					using (var field = (PDTextField)acroForm.GetField("TextField"))
 					{
-						field.Value = "Filled Text Field";
+						field.SetValue("Filled Text Field");
 						// Optional: don't allow this field to be edited
 						field.ReadOnly = true;
 					}
 
 					using (var checkbox = acroForm.GetField("Checkbox"))
 					{
-						((PDCheckbox)checkbox).Check();
+						((PDCheckBox)checkbox).Check();
 					}
 
 					using (var radio = acroForm.GetField("Radio"))
 					{
-						((PDRadioButton)radio).Value = "Second";
+						((PDRadioButton)radio).SetValue("Second");
 					}
 
 					// TODO: Use List<int>
