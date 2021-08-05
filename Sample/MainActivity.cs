@@ -2,19 +2,14 @@
 using System.Collections.Generic;
 using System.IO;
 
-using Android;
 using Android.App;
 using Android.Content.Res;
 using Android.Graphics;
 using Android.OS;
 using Android.Runtime;
-using Android.Support.V4.App;
-using Android.Support.V4.Content;
-using Android.Support.V7.App;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
-using Environment = Android.OS.Environment;
 
 using File = Java.IO.File;
 using Integer = Java.Lang.Integer;
@@ -37,6 +32,7 @@ using PDFRenderer = Com.Tom_roush.Pdfbox.Rendering.PDFRenderer;
 using PDFTextStripper = Com.Tom_roush.Pdfbox.Text.PDFTextStripper;
 using PDFBoxResourceLoader = Com.Tom_roush.Pdfbox.Util.PDFBoxResourceLoader;
 using ImageType = Com.Tom_roush.Pdfbox.Rendering.ImageType;
+using AndroidX.AppCompat.App;
 
 namespace PdfBoxAndroidSample
 {
