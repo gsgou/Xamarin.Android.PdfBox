@@ -11,6 +11,8 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 
+using AndroidX.AppCompat.App;
+
 using File = Java.IO.File;
 using Integer = Java.Lang.Integer;
 using IOException = Java.IO.IOException;
@@ -32,7 +34,6 @@ using PDFRenderer = Com.Tom_roush.Pdfbox.Rendering.PDFRenderer;
 using PDFTextStripper = Com.Tom_roush.Pdfbox.Text.PDFTextStripper;
 using PDFBoxResourceLoader = Com.Tom_roush.Pdfbox.Util.PDFBoxResourceLoader;
 using ImageType = Com.Tom_roush.Pdfbox.Rendering.ImageType;
-using AndroidX.AppCompat.App;
 
 namespace PdfBoxAndroidSample
 {
