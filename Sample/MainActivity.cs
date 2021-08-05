@@ -2,19 +2,16 @@
 using System.Collections.Generic;
 using System.IO;
 
-using Android;
 using Android.App;
 using Android.Content.Res;
 using Android.Graphics;
 using Android.OS;
 using Android.Runtime;
-using Android.Support.V4.App;
-using Android.Support.V4.Content;
-using Android.Support.V7.App;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
-using Environment = Android.OS.Environment;
+
+using AndroidX.AppCompat.App;
 
 using File = Java.IO.File;
 using Integer = Java.Lang.Integer;
