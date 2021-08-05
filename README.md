@@ -1,7 +1,7 @@
 Xamarin.Android.PdfBox
 ======================
 
-[![NuGet](https://img.shields.io/nuget/v/Xamarin.Android.PdfBox.svg?label=NuGet)](https://www.nuget.org/packages/Xamarin.Android.PdfBox)
+[![NuGet Badge](https://buildstats.info/nuget/Xamarin.Android.PdfBox)](https://www.nuget.org/packages/Xamarin.Android.PdfBox)
 
 Xamarin bindings library for [PdfBox-Android] from Tom Roush.
 
