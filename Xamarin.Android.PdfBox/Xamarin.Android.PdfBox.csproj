@@ -71,7 +71,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\pdfbox-android-2.0.0.0.aar" />
+    <LibraryProjectZip Include="Jars\pdfbox-android-2.0.1.0.aar" />
     <EmbeddedReferenceJar Include="Jars\bcpkix-jdk15to18-1.69.jar" />
     <EmbeddedReferenceJar Include="Jars\bcprov-jdk15to18-1.69.jar" />
     <EmbeddedReferenceJar Include="Jars\bcutil-jdk15to18-1.69.jar" />
