@@ -5,7 +5,6 @@
 DIRNAME="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 PROJLOC='/Xamarin.Android.PdfBox/Xamarin.Android.PdfBox.csproj'
 CSPROJ="${DIRNAME}${PROJLOC}"
-echo "${CSPROJ}"
 
 if [ -z "$1" ]
   then
