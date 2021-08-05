@@ -19,7 +19,8 @@
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <PackOnBuild>true</PackOnBuild>
-    <PackageVersion>1.0.0</PackageVersion>
+    <VersionPrefix>2.0.1.0</VersionPrefix>
+    <!-- <VersionSuffix>beta</VersionSuffix> -->
     <Authors>Giorgos Sgouridis</Authors>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
