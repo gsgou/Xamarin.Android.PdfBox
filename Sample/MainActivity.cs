@@ -10,7 +10,6 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
-
 using AndroidX.AppCompat.App;
 
 using File = Java.IO.File;
@@ -22,11 +21,11 @@ using PDPage = Com.Tom_roush.Pdfbox.Pdmodel.PDPage;
 using PDPageContentStream = Com.Tom_roush.Pdfbox.Pdmodel.PDPageContentStream;
 using PDFont = Com.Tom_roush.Pdfbox.Pdmodel.Font.PDFont;
 using PDType1Font = Com.Tom_roush.Pdfbox.Pdmodel.Font.PDType1Font;
-using PDType0Font = Com.Tom_roush.Pdfbox.Pdmodel.Font.PDType0Font;
+//using PDType0Font = Com.Tom_roush.Pdfbox.Pdmodel.Font.PDType0Font;
 using JPEGFactory = Com.Tom_roush.Pdfbox.Pdmodel.Graphics.Image.JPEGFactory;
 using LosslessFactory = Com.Tom_roush.Pdfbox.Pdmodel.Graphics.Image.LosslessFactory;
 using PDCheckBox = Com.Tom_roush.Pdfbox.Pdmodel.Interactive.Form.PDCheckBox;
-using PDComboBox = Com.Tom_roush.Pdfbox.Pdmodel.Interactive.Form.PDComboBox;
+//using PDComboBox = Com.Tom_roush.Pdfbox.Pdmodel.Interactive.Form.PDComboBox;
 using PDListBox = Com.Tom_roush.Pdfbox.Pdmodel.Interactive.Form.PDListBox;
 using PDRadioButton = Com.Tom_roush.Pdfbox.Pdmodel.Interactive.Form.PDRadioButton;
 using PDTextField = Com.Tom_roush.Pdfbox.Pdmodel.Interactive.Form.PDTextField;
