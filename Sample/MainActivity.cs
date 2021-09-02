@@ -31,7 +31,7 @@ using PDRadioButton = Com.Tom_roush.Pdfbox.Pdmodel.Interactive.Form.PDRadioButto
 using PDTextField = Com.Tom_roush.Pdfbox.Pdmodel.Interactive.Form.PDTextField;
 using PDFRenderer = Com.Tom_roush.Pdfbox.Rendering.PDFRenderer;
 using PDFTextStripper = Com.Tom_roush.Pdfbox.Text.PDFTextStripper;
-using PDFBoxResourceLoader = Com.Tom_roush.Pdfbox.Util.PDFBoxResourceLoader;
+using PDFBoxResourceLoader = Com.Tom_roush.Pdfbox.Android.PDFBoxResourceLoader;
 using ImageType = Com.Tom_roush.Pdfbox.Rendering.ImageType;
 
 namespace PdfBoxAndroidSample
