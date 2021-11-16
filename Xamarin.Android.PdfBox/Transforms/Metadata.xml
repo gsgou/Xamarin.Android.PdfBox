@@ -15,8 +15,9 @@
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.interactive.annotation']/class[@name='PDAnnotation']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.interactive.action']/class[@name='PDFormFieldAdditionalActions']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.font']/class[@name='PDFont']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
-  <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.interactive.digitalsignature']/class[@name='PDPropBuildDataDict']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
-  <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.interactive.pagenavigation']/class[@name='PDThread']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
+  <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.interactive.digitalsignature']/class[@name='PDPropBuildDataDict']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>
+  <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.interactive.digitalsignature']/class[@name='PDSeedValueCertificate']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>
+  <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.interactive.pagenavigation']/class[@name='PDThread']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.fdf']/class[@name='FDFNamedPageReference']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.interactive.action']/class[@name='PDAction']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.interactive.action']/class[@name='PDWindowsLaunchParams']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
