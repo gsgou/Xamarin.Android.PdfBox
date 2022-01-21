@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>MonoAndroid11.0;</TargetFrameworks>
+    <TargetFrameworks>MonoAndroid12.0;</TargetFrameworks>
     <AssemblyName>Xamarin.Android.PdfBox</AssemblyName>
     <RootNamespace>Xamarin.Android.PdfBox</RootNamespace>
     <PackageId>Xamarin.Android.PdfBox</PackageId>
@@ -10,7 +10,7 @@
     <Title>Xamarin.Android.PdfBox</Title>
     <Description>Xamarin bindings library for the PdfBox-Android library from Tom Roush.</Description>
     <Product>$(AssemblyName) ($(TargetFramework))</Product>
-    <VersionPrefix>2.0.8.0</VersionPrefix>
+    <VersionPrefix>2.0.9.0</VersionPrefix>
     <!-- <VersionSuffix>beta</VersionSuffix> -->
     <Authors>Giorgos Sgouridis</Authors>
     <NeutralLanguage>en</NeutralLanguage>
@@ -73,10 +73,10 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\pdfbox-android-2.0.8.0.aar" />
-    <EmbeddedReferenceJar Include="Jars\bcpkix-jdk15to18-1.69.jar" />
-    <EmbeddedReferenceJar Include="Jars\bcprov-jdk15to18-1.69.jar" />
-    <EmbeddedReferenceJar Include="Jars\bcutil-jdk15to18-1.69.jar" />
+    <LibraryProjectZip Include="Jars\pdfbox-android-2.0.9.0.aar" />
+    <EmbeddedReferenceJar Include="Jars\bcpkix-jdk15to18-1.70.jar" />
+    <EmbeddedReferenceJar Include="Jars\bcprov-jdk15to18-1.70.jar" />
+    <EmbeddedReferenceJar Include="Jars\bcutil-jdk15to18-1.70.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>
