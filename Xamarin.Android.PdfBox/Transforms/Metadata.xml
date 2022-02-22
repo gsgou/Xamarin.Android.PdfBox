@@ -27,6 +27,8 @@
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.documentinterchange.prepress']/class[@name='PDBoxStyle']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.documentinterchange.logicalstructure']/class[@name='PDObjectReference']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.common']/class[@name='PDStream']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
+  <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.encryption']/class[@name='PDCryptFilterDictionary']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>
+  <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.encryption']/class[@name='PDEncryption']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
   <attr path="/api/package[@name='com.tom_roush.pdfbox.interactive.measurement']/class[@name='PDViewportDictionary']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
   <attr path="/api/package[@name='com.tom_roush.pdfbox.interactive.measurement']/class[@name='PDMeasureDictionary']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel']/class[@name='PDPageTree']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
