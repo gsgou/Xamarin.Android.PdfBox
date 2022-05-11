@@ -10,7 +10,7 @@
     <Title>Xamarin.Android.PdfBox</Title>
     <Description>Xamarin bindings library for the PdfBox-Android library from Tom Roush.</Description>
     <Product>$(AssemblyName) ($(TargetFramework))</Product>
-    <VersionPrefix>2.0.17.0</VersionPrefix>
+    <VersionPrefix>2.0.20.0</VersionPrefix>
     <!-- <VersionSuffix>beta</VersionSuffix> -->
     <Authors>Giorgos Sgouridis</Authors>
     <NeutralLanguage>en</NeutralLanguage>
@@ -73,7 +73,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\pdfbox-android-2.0.17.0.aar" />
+    <LibraryProjectZip Include="Jars\pdfbox-android-2.0.20.0.aar" />
     <EmbeddedReferenceJar Include="Jars\bcpkix-jdk15to18-1.70.jar" />
     <EmbeddedReferenceJar Include="Jars\bcprov-jdk15to18-1.70.jar" />
     <EmbeddedReferenceJar Include="Jars\bcutil-jdk15to18-1.70.jar" />
