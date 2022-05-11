@@ -58,6 +58,7 @@
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel']/class[@name='PDDocumentNameDictionary']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel']/class[@name='PDResources']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.graphics.state']/class[@name='PDExtendedGraphicsState']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
+  <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.graphics.optionalcontent']/class[@name='PDOptionalContentProperties']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel']/class[@name='PDPage']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.graphics.shading']/class[@name='PDShading']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.documentinterchange.logicalstructure']/class[@name='PDMarkInfo']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
@@ -81,4 +82,5 @@
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.graphics.form']/class[@name='PDTransparencyGroupAttributes']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.interactive.viewerpreferences']/class[@name='PDViewerPreferences']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>	
   <attr path="/api/package[@name='com.tom_roush.pdfbox.pdmodel.graphics']/class[@name='PDXObject']/method[@name='getCOSObject']" name="managedReturn">Com.Tom_roush.Pdfbox.Cos.COSBase</attr>
+  <remove-node path="/api/package[@name='com.tom_roush.pdfbox.util']/class[@name='SmallMap']" />
 </metadata>
